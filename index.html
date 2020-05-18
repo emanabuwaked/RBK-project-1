@@ -1,47 +1,54 @@
-<!-- <!DOCTYPE html>
+
+
+ <!DOCTYPE html>
 <html>
 <head>
 
-<title>English quiz for kids</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<script src= "https://code.jquery.com/jquery-2.2.4.min.js"> </script> 
+<title>Our Quiz</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-</head>
-
-
+  </head>
 <body>
 
-<div id= "containerOfQuiz" class="container">
+<h1>This is the Fastest quiz!</h1>
 
-<h1>boats</h1> 
+<label >Full name:</label>
+  <input type="text" id= "name"><br><br>
 
-<p>
-
-There are many kinds of boats.<br>
-One kind of boat is called a sailboat. A sailboat uses the wind to move. Wind makes a
-sailboat move in the water. The wind pushes the sailboat. Wind fills the sails. The sailboat moves
-when the wind blows.<br>
-One kind of boat is called a motorboat. A motorboat uses a motor to move. The motor
-gives power to the boat. The motorboat moves when the motor is running. The motorboat makes
-a loud noise.<br>
-One kind of boat is called a rowboat. A rowboat needs people to move it. People make a
-rowboat move in the water. People use oars to move a rowboat. Oars are long and flat. Oars go
-into the water. A rowboat moves when people use the oars.<br>
-As you can see, there are many kinds of boats</p>
-
-<p>Questions</p>
+<form id = "quiz" name = "quiz">
 
 
-<lable class="question" id = "question"></lable>
-<lable class= "choice"><input type="radio" name="obtion" value "1" <span> id="choice1"</span/> </lable>
-<lable class= "choice"><input type="radio" name="obtion" value "2"<span> id="choice2"</span/>/> </lable>
-<lable class= "choice"><input type="radio" name="obtion" value "3"<span> id="choice3"</span/>></lable>
+<p class = "questions">What is the capital of palestine?</p>
+<input type = "radio" id = "a" name = "question1" value = "Jersulem"> Jersulem<br>
+<input type = "radio" id = "a" name = "question1" value = "Ramllah"> Ramllah<br>
+
+<p class = "questions">What is the capital of UA?</p>
+
+<input type = "radio" id = "a" name = "question2" value = "Washinton"> Washinton<br>
+<input type = "radio" id = "a" name = "question2" value = "New York"> New York<br> 
+
+
+<p class = "questions">What is the capital of England?</p>
+
+<input type = "radio" id = "a" name = "question3" value = "londan"> londan<br>
+<input type = "radio" id = "a" name = "question3" value = "New York"> New York<br> 
+
+
+
+<input id = "button" type = "button" value = "submit" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
 </div>
-
-
-
-<script src="script.js"></script>
-</body>
+  <script src = "script.js"></script>
+  </body>
 </html>
 
- -->
+
+
