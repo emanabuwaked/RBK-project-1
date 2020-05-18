@@ -1,16 +1,55 @@
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <html>
 <head>
-	<title>Quize
-   </title>
-	<link rel="stylesheet" type="text/css" href="style.css">	
+
+<title>Our Quiz</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "script.js"></script>
+
 </head>
+
+
 <body>
-	<label>1- What is the capital of Palestine</label>
-	<label>Jerselem<input  id="" type ="radio" > </label>
-	<label>Nables<input type ="radio"> </label>
-	<label></label>
-	<label></label>
-    <script src="script.js"></script>
-</body>
+
+
+
+<h1>This is the Fastest quiz!</h1>
+
+<label >Full name:</label>
+  <input type="text" id= "name"><br><br>
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">What is the capital of palestine?</p>
+<input type = "radio" id = "a" name = "question1" value = "Jersulem"> Jersulem<br>
+<input type = "radio" id = "a" name = "question1" value = "Ramllah"> Ramllah<br>
+
+<p class = "questions">What is the capital of UA?</p>
+
+<input type = "radio" id = "a" name = "question2" value = "Washinton"> Washinton<br>
+<input type = "radio" id = "a" name = "question2" value = "New York"> New York<br> 
+
+
+<p class = "questions">What is the capital of England?</p>
+
+<input type = "radio" id = "a" name = "question3" value = "londan"> londan<br>
+<input type = "radio" id = "a" name = "question3" value = "New York"> New York<br> 
+
+
+
+<input id = "button" type = "button" value = "submit" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
 </html>
+
+</body>
