@@ -1,3 +1,4 @@
+
 function check(){
 
 	  var question1 = document.quiz.question1.value;
@@ -39,6 +40,7 @@ function check(){
 	
 	}
 	
+
 
 
 
