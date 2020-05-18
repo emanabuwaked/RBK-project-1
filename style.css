@@ -1,18 +1,24 @@
 body {
+
 	font-family: 'Lato', sans-serif;
+	text-align: center
+	background:#87CEFA;
+}
+#myname #fullname{
+	text-align: center
+	color: blue;
 }
 
 h1{
-	color:rgb(91, 9, 9)
-	;
+	color:rgb(145, 92, 92);
 }
 
 
 #quiz {
 	margin-left: 10px;
-	background: #111720;
-	color: white;
-	padding: 10px 20px 10px 20px;
+	background: pink;
+	color: blue;
+	padding: 15px 20px 10px 20px;
 	width: 400px;
 	border-radius: 10px;
 	float: left;
@@ -35,36 +41,21 @@ input {
 
 #button {
 	background: rgb(91, 9, 9);
-	border: none;
 	border-radius: 5px;
 	padding: 10px;
 	color: white;
-	font-size: 16px;
-    transition-duration: .5s;  
+	font-size: 16px;  
 	margin-top: 15px;
 }
-
-
-
- #button:hover { 
-	background: white;
-	border: 1px solid;
-	color: black;
-	cursor: pointer;
-
-} 
 
 #after_submit {
 	visibility: hidden;
 	background: rgb(145, 92, 92);
-	padding: 10px 20px 10px 20px;
-	width: 400px;
+	padding: 15px 20px 15px 20px;
+	width: 420px;
 	border-radius: 20px;
-	float: button;
-	margin-bottom: 20px;
-	font-size: 30px;
-
-
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
 }
 
 

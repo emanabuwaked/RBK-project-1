@@ -1,10 +1,10 @@
-
-function check(){
+ function check(){
 
 	  var question1 = document.quiz.question1.value;
 	  var question2 = document.quiz.question2.value;
 	  var question3 = document.quiz.question3.value;
 	  var correct = 0;
+	  var index;
 
 
 	if (question1 === "Jersulem") {
@@ -17,9 +17,6 @@ function check(){
 		correct++;
 	}
 	
-   
-	
-	var index;
 
 	if (correct === 0) {
 		index = 0;
@@ -40,10 +37,4 @@ function check(){
 	
 	}
 	
-
-
-
-
-
-
 

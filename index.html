@@ -4,20 +4,21 @@
 <html>
 <head>
 
-<title>Our Quiz</title>
+<title>Quiz</title>
 <link href ="style.css" rel ="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-  </head>
+</head>
+
 <body>
 
-<h1>This is the Fastest quiz!</h1>
-
-<label >Full name:</label>
-  <input type="text" id= "name"><br><br>
+<h1>Capital Cities of the World </h1>
+<div id = "myname">
+<label id= "fullname" >Full name:</label>
+<input type="text" id= "name"><br><br>
+<div>
 
 <form id = "quiz" name = "quiz">
-
 
 <p class = "questions">What is the capital of palestine?</p>
 <input type = "radio" id = "a" name = "question1" value = "Jersulem"> Jersulem<br>
@@ -44,7 +45,6 @@
 <div id = "after_submit">
 <p id = "number_correct"></p>
 <p id = "message"></p>
-<img id = "picture">
 </div>
   <script src = "script.js"></script>
   </body>
