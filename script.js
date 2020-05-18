@@ -1,14 +1,8 @@
+ var questionOfOurQuiz=0;
+ var point=0;
 
-function check(){
-
-	var question1 = document.quiz.question1.value;
-	var correct = 0;
-
-
-	if (question1 === "a sailboat") {
-		correct = correct+1;
-} 
-
-	
-
-
+ var container = document.getElementById("containerOfQuiz");
+ var question=document.getElementById("question");
+ var choice1= document.getElementById("choice1")
+ var choice2= document.getElementById("choice2")
+ var choice3= document.getElementById("choice3")
